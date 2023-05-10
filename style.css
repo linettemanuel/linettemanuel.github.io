@@ -1,0 +1,72 @@
+body {
+    background-color: lightgray;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.alert {
+    background-color: white;
+    display: flex;
+    position: relative;
+    top: 100px;
+    flex-direction: column;
+    margin: auto;
+    width: 450px;
+    height: 350px;
+    border-left: 15px solid #074ced;
+    border-radius: 5px;
+}
+
+.alert .alert-text {
+    height: 75%;
+    display: flex;
+    align-items: center;
+}
+
+.alert .alert-text .text { 
+    text-align: center;
+    width: 100%;
+    padding: 15px;
+    margin: 15px;
+}
+
+
+.alert .alert-btns {
+    height: 25%;
+    display: flex;
+    align-items: center;  
+}
+
+.alert .alert-btns .alert-btns-box {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.alert .alert-btns .alert-btns-box .btn {
+    padding: 10px 30px;
+    background: none;
+    border-radius: 20px;
+    border: 1px solid darkgray;
+    color: darkgray;
+}
+
+
+.alert .alert-btns .confirm .btn:hover {
+    cursor: pointer;
+    background-color: #63ed07;
+    border: 1px solid #63ed07;
+    color: white;
+    transform: scale(1.1);
+}
+
+.alert .alert-btns .decline .btn:hover {
+    cursor: pointer;
+    background-color: #ed0744;
+    border: 1px solid #ed0744;
+    color: white;
+    transform: scale(1.1);
+}
